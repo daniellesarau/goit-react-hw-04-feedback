@@ -1,0 +1,65 @@
+.list {
+  display: flex;
+  gap: 15px;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
+}
+.item {
+  list-style: none;
+  padding: 15px 20px;
+  color: black;
+  background-color: lightblue;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+    scale 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.item_green {
+  list-style: none;
+  padding: 15px 20px;
+  color: black;
+  background-color: greenyellow;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+    scale 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.item_neutral {
+  list-style: none;
+  padding: 15px 20px;
+  color: black;
+  background-color: grey;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+    scale 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.item_bad {
+  list-style: none;
+  padding: 15px 20px;
+  color: black;
+  background-color: red;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+    scale 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.item:hover {
+  opacity: 0.8;
+  scale: 1.05;
+}
+
+.value {
+  font-weight: bold;
+}
+.list_feedback {
+  display: flex;
+  gap: 20px;
+}
+.container_feedback {
+  display: flex;
+  justify-content: center;
+}
